@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;    
+}
+
+.container{
+    width: 1100px;
+    margin: 130px 130px 50px 130px;
+
+}
+
+.top-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.top-section .top-left{
+    width: 500px;
+}
+
+.top-section .top-left h1{
+    color: hsl(300, 43%, 22%);
+    margin: 0 0 33px 0;
+    font-size: 61px;
+    font-weight: 700px;
+    line-height: 55px;
+    letter-spacing: -2px;
+}
+
+.top-section .top-left p{
+    color: hsl(303, 10%, 53%);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.3ch;
+}
+
+.top-right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.evaluation{
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    margin: 20px 0px 0 ;
+    width: 500px;
+    height: 63px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    position: relative;
+}
+
+.stars{
+    margin: 30px;
+}
+.star{
+    margin: 0 1px 0 1px;
+}
+
+.first-evaluation{
+    right: 100px;
+}
+
+.second-evaluation{
+    right: 50px;
+}
+
+.testimonials{
+    margin: 60px 0 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial{
+    background-color: hsl(300, 43%, 22%);
+    display: flex;
+    position: relative;
+    width: 290px;
+    height: 210px;
+    border-radius: 10px ;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.testimonial p{
+    margin: 0 0 20px 0;
+}
+
+.customer-profile p{
+    color: hsl(333, 80%, 67%);
+    font-size: 18px;
+}
+
+.customer-profile{
+    margin-bottom: 20px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.customer-profile img{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 25px;
+}
+
+.customer-2{
+    margin-top: 20px;
+}
+.customer-3{
+    margin-top: 40px;
+}
+
+
+

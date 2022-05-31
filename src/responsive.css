@@ -1,0 +1,48 @@
+@media only screen and (max-width: 900px){
+    body{
+        background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+        background-position: left top, right bottom;
+        background-repeat: no-repeat;
+    }
+    
+    .container{
+        width: 90%;
+        min-width: 305px;
+        margin: 130px 20px 50px 20px;
+    }
+    .top-section .top-left{
+        width: 100%;
+        text-align: center;
+    }
+    .top-section .top-left h1{
+        font-size: 45px;
+    }
+
+    .top-right{
+        width: 100%;
+    }
+
+    .evaluation{
+        width: 100%;
+        height: fit-content;
+        right: 0;
+        flex-direction: column;
+    }
+
+    .evaluation p{
+        margin: 0 20px 10px 20px;
+    }
+
+    .stars{
+        margin: 10px 50px 0px 50px;
+    }
+
+    .testimonials{
+        flex-wrap: wrap;
+    }
+    .testimonial{
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+}    
